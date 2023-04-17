@@ -186,6 +186,7 @@ nav{
     bottom:-190px;
     right:-10px;
     visibility:hidden;
+    background:#fff;
 }
 .company_div:hover .company_toolkit{
     visibility:visible;
