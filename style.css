@@ -51,7 +51,6 @@ nav{
     bottom:-435px;
     right:-250px;
     border:2px solid;
-    visibility:hidden;
     background:#fff;
 }
 .products_tooltip p:hover{
@@ -83,14 +82,14 @@ nav{
     padding-right:15px;
     padding-left:15px;
     right:-35px;
-    visibility:hidden;
+    display:none;
     background:#fff;
 }
 .enterprise_tooltip p:hover{
     text-decoration:underline;
 }
 .enterprise_div:hover .enterprise_tooltip{
-    visibility:visible;
+    display:block;
 }
 .enterprise_tooltip p{
     margin-bottom:10px;
@@ -103,7 +102,6 @@ nav{
     position:absolute;
     bottom:-310px;
     right:-300px;
-    visibility:hidden;
     background:#fff;
 }
 .small_margin{
@@ -146,9 +144,6 @@ nav{
 .community_tooltipPartTwo{
     flex:1;
 }
-.community_div:hover .community_tooltip{
-    visibility:visible;
-}
 .design,
 .prototyping,
 .design{
@@ -167,9 +162,6 @@ nav{
 .products_div:hover{
     text-decoration:underline;
 }
-.products_div:hover .products_tooltip{
-    visibility:visible;
-}
 
 .enterprise_div:hover{
     text-decoration:underline;
@@ -185,11 +177,11 @@ nav{
     padding-left:20px;
     bottom:-190px;
     right:-10px;
-    visibility:hidden;
+    display:none;
     background:#fff;
 }
 .company_div:hover .company_toolkit{
-    visibility:visible;
+    display:block;
 }
 .company_toolkit p:hover{
     text-decoration:underline;
@@ -209,7 +201,7 @@ nav{
 .menu img{
     height:25px;
     width:25px;
-    visibility:hidden;
+    display:none;
 }
 .get_started{
     height:40px;
@@ -233,13 +225,13 @@ nav{
     .log_in,
     .community_div,
     .company_div{
-        visibility:hidden;
+        display:none;
     }
     .nav_items{
         padding-right:40px;
     }
     .menu img{
-        visibility: visible;
+        display:block;
     }
     
 }
