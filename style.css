@@ -281,6 +281,9 @@ nav{
     width:40%;
 }
 @media (max-width:950px){
+    body{
+        overflow-x:hidden;
+    }
     .products_div,
     .enterprise_div,
     .pricing_div,
