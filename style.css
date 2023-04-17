@@ -52,6 +52,7 @@ nav{
     right:-250px;
     border:2px solid;
     background:#fff;
+    opacity:0;
 }
 .products_tooltip p:hover{
     text-decoration:underline;
@@ -103,6 +104,10 @@ nav{
     bottom:-310px;
     right:-300px;
     background:#fff;
+    opacity: 0;
+}
+.div_com:hover .community_tooltip{
+    opacity:1;
 }
 .small_margin{
     margin-bottom:18px;
@@ -217,6 +222,63 @@ nav{
 }
 .company_div:hover{
     text-decoration:underline;
+}
+.videoOne_div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.first_video{
+    width:50%;
+}
+.figma_connects{
+    font-size:22px;
+    width:40%;
+    text-align:center;
+    line-height:31.9px;
+    letter-spacing:0.5px;
+}
+.button_getStarted{
+    font-size:18px;
+    font-weight:700;
+    line-height:18px;
+    background:#5551ff;
+    border:none;
+    padding:14px 24px 16px;
+    color:#fff;
+    border-radius:10px;
+    margin-top:30px;
+}
+.button_getStarted:hover{
+    transform:translateY(-10px);
+}
+.background_nahi_hai{
+    width:2016px;
+    height:581px;
+    margin-left:-700px;
+    margin-top:30px;
+}
+.another_idea{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.explore_moreIdeas{
+    font-size:50px;
+    font-weight:bold;
+    line-height:73px;
+    color:#000;
+    text-align:center;
+    width:50%;
+}
+.whether{
+    font-size:22px;
+    font-weight:400px;
+    line-height:31.9px;
+    text-align:center;
+    width:40%;
 }
 @media (max-width:950px){
     .products_div,
