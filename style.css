@@ -1,0 +1,245 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:Whyte, sans-serif;
+    overflow-x:hidden;
+}
+.image_logo{
+    height:50px;
+    width:50px;
+}
+nav{
+    display:flex;
+    width:100%;
+    background:grey;
+    justify-content:space-between;
+    align-items:center;
+    padding-top:20px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-bottom:15px;
+}
+.nav_items{
+    display:flex;
+    gap:35px;
+}
+.nav_items img{
+    height:15px;
+    width:15px;
+}
+.products_div,
+.enterprise_div,
+.pricing_div,
+.log_in,
+.button_class,
+.community_div,
+.company_div,
+.menu{
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+}
+.community_div,
+.enterprise_div,
+.products_div{
+    position:relative;
+}
+.products_tooltip{
+    position:absolute;
+    display:flex;
+    width:580px;
+    bottom:-435px;
+    right:-250px;
+    border:2px solid;
+    visibility:hidden;
+    background:#fff;
+}
+.products_tooltip p:hover{
+    text-decoration:underline;
+}
+.ttp_oneProducts{
+    flex:1;
+    padding-top:15px;
+    padding-right:15px;
+    padding-left:15px;
+    border-right:2px solid;
+}
+.ttp_twoProducts{
+    flex:1;
+    padding-top:15px;
+    padding-right:15px;
+    padding-left:15px;
+}
+.products_tooltip img{
+    width:100%;
+    height:150px;
+}
+.enterprise_tooltip{
+    width:120px;
+    position:absolute;
+    bottom:-120px;
+    border:2px solid;
+    padding-top:5px;
+    padding-right:15px;
+    padding-left:15px;
+    right:-35px;
+    visibility:hidden;
+    background:#fff;
+}
+.enterprise_tooltip p:hover{
+    text-decoration:underline;
+}
+.enterprise_div:hover .enterprise_tooltip{
+    visibility:visible;
+}
+.enterprise_tooltip p{
+    margin-bottom:10px;
+}
+.community_tooltip{
+    display:flex;
+    width:800px;
+    border:2px solid #000;
+    color:grey;
+    position:absolute;
+    bottom:-310px;
+    right:-300px;
+    visibility:hidden;
+    background:#fff;
+}
+.small_margin{
+    margin-bottom:18px;
+}
+.community_tooltipPartOne{
+    display:flex;
+    flex:3;
+}
+.community_tooltipTwo,
+.community_tooltipOne{
+    padding:20px;
+    flex:1;
+}
+.community_tooltipTwo{
+    border-right:2px solid #000;
+}
+.community_tooltipPartTwo{
+    padding:20px;
+}
+.files_tempalates{
+    font-size:20px;
+    color:#000;
+}
+.files_tempalates:hover{
+    text-decoration:underline;
+}
+.community_tooltipPartTwo p:hover{
+    text-decoration:underline;
+}
+.community_tooltipTwo img,
+.community_tooltipOne img{
+    width:100%;
+    height:150px;
+}
+.community_imageTwo{
+    width:100px;
+    height:100px;
+}
+.community_tooltipPartTwo{
+    flex:1;
+}
+.community_div:hover .community_tooltip{
+    visibility:visible;
+}
+.design,
+.prototyping,
+.design{
+    margin-bottom:20px;
+}
+.image_ttpOne{
+    height:200px;
+}
+.figma_heading{
+    font-size:20px;
+}
+.figma_content p{
+    color:grey;
+}
+
+.products_div:hover{
+    text-decoration:underline;
+}
+.products_div:hover .products_tooltip{
+    visibility:visible;
+}
+
+.enterprise_div:hover{
+    text-decoration:underline;
+}
+
+.company_div{
+    position:relative;
+}
+.company_toolkit{
+    position:absolute;
+    border:2px solid #000;
+    padding-right:20px;
+    padding-left:20px;
+    bottom:-190px;
+    right:-10px;
+    visibility:hidden;
+}
+.company_div:hover .company_toolkit{
+    visibility:visible;
+}
+.company_toolkit p:hover{
+    text-decoration:underline;
+}
+.pricing_div:hover{
+    text-decoration:underline;
+}
+.log_in:hover{
+    text-decoration:underline;
+}
+.community_div:hover{
+    text-decoration:underline;
+}
+.button_class{
+    padding-top:3px;
+}
+.menu img{
+    height:25px;
+    width:25px;
+    visibility:hidden;
+}
+.get_started{
+    height:40px;
+    background:#5551ff;
+    border:none;
+    color:#fff;
+    width:150px;
+    border-radius:10px;
+    font-size:15px;;
+    font-weight:bold;
+    transition:transform 0.15s;
+    cursor:pointer;
+}
+.company_div:hover{
+    text-decoration:underline;
+}
+@media (max-width:950px){
+    .products_div,
+    .enterprise_div,
+    .pricing_div,
+    .log_in,
+    .community_div,
+    .company_div{
+        visibility:hidden;
+    }
+    .nav_items{
+        padding-right:40px;
+    }
+    .menu img{
+        visibility: visible;
+    }
+    
+}
