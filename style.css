@@ -284,6 +284,9 @@ nav{
     width:100%;
 }
 @media (max-width:950px){
+    .div_anotherBackground{
+        width:100%;
+    }
     body{
         overflow-x:hidden;
     }
