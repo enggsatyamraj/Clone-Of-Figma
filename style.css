@@ -283,6 +283,42 @@ nav{
 .div_anotherBackground{
     width:100%;
 }
+.explore_divWithImages{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.explore_ideas{
+    flex:1;
+    padding-left:100px;
+}
+.explore_ideas p{
+    font-size:2.25rem;
+    font-weight:bold;
+    line-height:2.7rem;
+    width:50%;
+}
+.explore_ideas div{
+    font-size:1.125rem;
+    line-height:1.688rem;
+    width:50%;
+}
+.explore_ideas button{
+    background:#000;
+    color:#fff;
+    padding:14px 24px 16px;
+    font-size:1.125rem;
+    border:none;
+    border-radius:10px;
+    margin-top:30px;
+}
+.exploreImages{
+    flex:1;
+}
+.exploreImages img{
+    height:auto;
+    width:70%;
+}
 @media (max-width:950px){
     .div_anotherBackground{
         width:100%;
@@ -303,6 +339,12 @@ nav{
     }
     .menu img{
         display:block;
+    }
+    .explore_divWithImages{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
     }
     
 }
