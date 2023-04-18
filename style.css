@@ -280,6 +280,9 @@ nav{
     text-align:center;
     width:40%;
 }
+.div_anotherBackground{
+    width:100%;
+}
 @media (max-width:950px){
     body{
         overflow-x:hidden;
