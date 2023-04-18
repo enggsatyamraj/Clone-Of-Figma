@@ -288,9 +288,12 @@ nav{
     align-items:center;
     justify-content:center;
 }
-.explore_ideas{
+.explore_anotherDiv{
+    display:flex;
+    align-items:center;
+    justify-content:center;
     flex:1;
-    padding-left:100px;
+    padding-left:150px;
 }
 .explore_ideas p{
     font-size:2.25rem;
@@ -339,6 +342,11 @@ nav{
     }
     .menu img{
         display:block;
+    }
+    .explore_anotherDiv{
+        display:flex;
+        align-items:center;
+        justify-content:center;
     }
     .explore_divWithImages{
         display:flex;
