@@ -163,7 +163,6 @@ nav{
 .figma_content p{
     color:grey;
 }
-
 .products_div:hover{
     text-decoration:underline;
 }
@@ -254,9 +253,8 @@ nav{
     transform:translateY(-10px);
 }
 .background_nahi_hai{
-    width:2016px;
-    height:581px;
-    margin-left:-700px;
+    width:100%;
+    height:auto;
     margin-top:30px;
 }
 .another_idea{
@@ -266,19 +264,26 @@ nav{
     flex-direction:column;
 }
 .explore_moreIdeas{
-    font-size:50px;
+    font-size:4rem;
     font-weight:bold;
     line-height:73px;
     color:#000;
     text-align:center;
-    width:50%;
+    width:70%;
+}
+.another_whether{
+    width:60%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:50px;
+    margin-bottom:30px;
 }
 .whether{
-    font-size:22px;
-    font-weight:400px;
-    line-height:31.9px;
+    font-size:1.375rem;
+    line-height:1.994rem;
     text-align:center;
-    width:40%;
+    width:70%;
 }
 .div_anotherBackground{
     width:100%;
@@ -409,10 +414,8 @@ nav{
     width:33%;
     height:auto;
 }
+
 @media (max-width:950px){
-    .hard_images img{
-        
-    }
     .div_anotherBackground{
         width:100%;
     }
