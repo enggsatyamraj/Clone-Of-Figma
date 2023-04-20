@@ -386,7 +386,33 @@ nav{
     font-size:1.375rem;
     line-height:1.994rem;
 }
+.hard_div{
+    display:flex;
+    flex-direction:column;
+    padding:100px 5%;
+    background:#000;
+}
+.buzz{
+    font-size:0.875rem;
+    color:#fec600;
+    margin-bottom:5px;
+}
+.excellent{
+    color:#fff;
+    margin-bottom:10px;
+}
+.hard_images{
+    display:flex;
+    gap:20px;
+}
+.hard_images img{
+    width:33%;
+    height:auto;
+}
 @media (max-width:950px){
+    .hard_images img{
+        
+    }
     .div_anotherBackground{
         width:100%;
     }
