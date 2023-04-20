@@ -429,5 +429,10 @@ nav{
     }
     .exploreImages{
         display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .explore_ideas button{
+        margin-bottom:40px
     }
 }
